@@ -1,0 +1,17 @@
+body {
+    margin: 0 auto;
+    border: 0 auto;
+}
+
+p#camiseta {
+    font: bolder 2rem arial;
+    background-color: black;
+    color: white;
+    padding: 7vh;
+    text-align: center;
+    margin: 0 auto 10;
+}
+
+#colaBorda {
+    margin-top: 0px;
+}
