@@ -69,8 +69,11 @@ span#resposta {
 }
 
 /* 630 px vai ser utilizad um media query */
-@media screen and (max-width) {
+@media screen and (max-width:630px) {
+    main.cards{
+        padding: 0px 32px 0px 25px;
+    }
     section.card{
-        margin: 0;
+        margin: 3px;
     }
 }
