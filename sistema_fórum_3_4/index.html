@@ -6,18 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fórum_3_4</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container" id="colaBorda">
-        <div class="row">
-            <div class="col">
-                <p id="camiseta">Entre com o mouse aqui</p>
+
+    <main class="cards">
+
+        <section class="card">
+            <h1>Calculando imc</h1>
+
+            <form action="js/System.js">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <fieldset>
+                    <label for="peso">Peso:</label>
+                    <input type="number" name="peso" id="peso">
+                    <label for="altura">Altura:</label>
+                    <input type="number" name="altura" id="altura">
+                </fieldset>
+                <div>
+                    <input type="button" value="Calcule">
+                </div>
+            </form>
+
+            <div class="respostaIMC">
+                <p id="resposta">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet fuga quos ipsa? Quia dolor porro
+                    hic modi, quos voluptatibus, est iste labore aperiam recusandae delectus architecto, maiores dicta
+                    a.
+                </p>
             </div>
-        </div>
-    </div>
+
+        </section>
+    </main>
+
+
     <script src="js/System.js"></script>
+
 </body>
 
 </html>
