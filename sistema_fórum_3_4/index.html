@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fórum_3_4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400;1,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,21 +19,26 @@
     <main class="cards">
 
         <section class="card">
-            <h1>Calculando imc</h1>
-
-            <form action="js/System.js">
-                <div>
+            <h1 id="titulo">Calculando imc</h1>
+            <br>
+            <form>
+                <div class="campo">
                     <label for="nome">Nome:</label>
                     <input type="text" name="nome" id="nome">
-                </div>
-                <fieldset>
-                    <label for="peso">Peso:</label>
-                    <input type="number" name="peso" id="peso">
-                    <label for="altura">Altura:</label>
-                    <input type="number" name="altura" id="altura">
-                </fieldset>
-                <div>
-                    <input type="button" value="Calcule">
+                </div><br>
+                <fieldset class="agrupamento">
+                    <div class="campo">
+                        <label for="peso">Peso:</label>
+                        <input type="number" name="peso" id="peso" required>
+                    </div>
+                    <br>
+                    <div class="campo">
+                        <label for="altura">Altura:</label>
+                        <input type="number" name="altura" id="altura" required>
+                    </div>
+                </fieldset><br>
+                <div class="campo">
+                    <button type="submit" id="bntCalcule">Calcule</button>
                 </div>
             </form>
 
