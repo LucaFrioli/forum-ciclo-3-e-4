@@ -12,12 +12,6 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <script>
-        function imc2() {
-            //var nome = document.furmulario.nome.value;
-            alert(`teste`);
-        }
-    </script> -->
 </head>
 
 <body>
@@ -27,7 +21,7 @@
         <section class="card">
             <h1 id="titulo">Calculando imc : </h1>
             <br>
-            <!-- <form method="poost" name="furmulario" onsubmit="return imc2()"> -->
+            <form>
                 <div class="campo">
                     <label for="nome">Nome:</label>
                     <input type="text" name="nome" id="nome">
@@ -44,25 +38,21 @@
                     </div>
                 </fieldset><br>
                 <div class="campo">
-                    <button type="" id="bntCalcule">Calcule</button>
+                    <button type="submit" id="bntCalcule">Calcule</button>
                 </div>
-            <!-- </form> -->
+            </form>
 
-
-
-            <div class="resposta">
-                <p id="resposta">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet fuga quos ipsa? Quia dolor porro
-                    hic modi, quos voluptatibus, est iste labore aperiam recusandae delectus architecto, maiores dicta
-                    a.
-                </p>
-            </div>
+            <span id="resposta">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet fuga quos ipsa? Quia dolor porro
+                hic modi, quos voluptatibus, est iste labore aperiam recusandae delectus architecto, maiores dicta
+                a.
+            </span>
 
         </section>
     </main>
 
 
-    <script src="./js/System.js"></script>
+    <script src="js/System.js"></script>
 
 </body>
 
