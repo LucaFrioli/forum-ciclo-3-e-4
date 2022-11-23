@@ -6,18 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fórum_3_4</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400;1,500&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <script>
-        function imc2() {
-            //var nome = document.furmulario.nome.value;
-            alert(`teste`);
-        }
-    </script> -->
 </head>
 
 <body>
@@ -25,32 +14,25 @@
     <main class="cards">
 
         <section class="card">
-            <h1 id="titulo">Calculando imc : </h1>
-            <br>
-            <!-- <form method="poost" name="furmulario" onsubmit="return imc2()"> -->
-                <div class="campo">
+            <h1>Calculando imc</h1>
+
+            <form action="js/System.js">
+                <div>
                     <label for="nome">Nome:</label>
                     <input type="text" name="nome" id="nome">
-                </div><br>
-                <fieldset class="agrupamento">
-                    <div class="campo">
-                        <label for="peso">Peso:</label>
-                        <input type="number" name="peso" id="peso">
-                    </div>
-                    <br>
-                    <div class="campo">
-                        <label for="altura">Altura:</label>
-                        <input type="number" name="altura" id="altura">
-                    </div>
-                </fieldset><br>
-                <div class="campo">
-                    <button type="" id="bntCalcule">Calcule</button>
                 </div>
-            <!-- </form> -->
+                <fieldset>
+                    <label for="peso">Peso:</label>
+                    <input type="number" name="peso" id="peso">
+                    <label for="altura">Altura:</label>
+                    <input type="number" name="altura" id="altura">
+                </fieldset>
+                <div>
+                    <input type="button" value="Calcule">
+                </div>
+            </form>
 
-
-
-            <div class="resposta">
+            <div class="respostaIMC">
                 <p id="resposta">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet fuga quos ipsa? Quia dolor porro
                     hic modi, quos voluptatibus, est iste labore aperiam recusandae delectus architecto, maiores dicta
@@ -62,7 +44,7 @@
     </main>
 
 
-    <script src="./js/System.js"></script>
+    <script src="js/System.js"></script>
 
 </body>
 
