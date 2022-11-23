@@ -61,10 +61,21 @@ button#bntCalcule {
     font-size: 105%;
 }
 
-span#resposta {
+div.campo{
+    margin: 3px 2px;
+}
+
+div#resposta {
     background-color: rgb(17, 11, 2);
     color: rgb(240, 204, 158);
     padding: 0.3rem;
+    border-radius: 8px;
+}
+
+div.resposta{
+    background-color: rgb(17, 11, 2);
+    color: rgb(240, 204, 158);
+    padding: 3rem 5rem;
     border-radius: 8px;
 }
 
